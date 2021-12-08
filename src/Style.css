@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+body{
+    position: relative;
+    width: 100%;
+    height: 1685px;
+    background-image: url(https://images.wallpaperscraft.ru/image/single/kraska_granzh_zelenyj_124502_1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+    /* wrapper */
+.wrapper{
+    width: 70%;
+    max-width: 1300px;
+    min-width: 1000px;
+    margin: auto;
+    height: 1600px;
+    background: rgba(255, 255, 255, 0.4);
+    /* background: rgba(0, 233, 255, 0.9); */
+    box-shadow: 0px 10px 20px rgba(0 0 0 0.4);
+    width: 60%;
+    margin: 50px auto;
+    border-radius: 40px 40px 40px 40px;
+}
+
+    /* header */
+.header{
+    width: 100%;
+
+    top: 0;
+
+    z-index: 1000;
+
+    background: #042238;
+    border-radius: 40px 40px 0px 0px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}   
+    /* logo */
+.Logo__header{
+    align-items: center;
+    color: #fff;
+    display: flex;
+    font-family: Garamond;
+    font-style: normal;
+    font-size: 100px;
+    font-size: calc(1.0em + 1.5vw);
+}
+.nav__header{
+    position: absolute;
+    margin-right: 100px;
+    background-color: brown;
+}
+.link__nav__header1{
+    display: inline;
+    vertical-align: top;
+
+
+    color: #fff;
+    text-decoration: none;
+
+    border: 4px solid #32D15C;
+    color: #32D15C;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 7px 15px;
+
+    margin: auto;
+    margin-right: 20px;
+
+    font-weight: bold;
+    font-size: larger;
+}
+.link__nav__header2{
+    display: inline;
+    vertical-align: top;
+
+    color: #fff;
+    text-decoration: none;
+
+    border: 4px solid #32D15C;
+    color: #32D15C;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 7px 15px;
+    margin: auto;
+    margin-right: 40px;
+
+    font-weight: bold;
+    font-size: larger;
+}
+.link__nav__header:hover{
+    color: #ffffff;
+    border: 4px solid #ffffff;
+}
+
+
+
+
+.home{
+    margin-right: 5%;
+    text-align: center;
+    padding: 1% 5%;
+    font-size: calc(1em + 0.2vw);
+    border: 5px solid #32d15c;
+    color: #32d15c;
+    box-sizing: border-box;
+    border-radius: 40px 40px 40px 40px;
+
+}
+.contacts{
+    margin-right: 5%;
+    position: relative;
+    border-radius: 40px 40px 40px 40px;
+    text-align: center;
+    padding: 1% 5%;
+
+    color: #32d15c;
+    border: 5px solid #32d15c;
+
+    font-size: calc(1em + 0.2vw);
+}
+
+.Logo{
+    width: 12%;
+    height: 90%;
+    margin-left: 3%;
+}
+.content_main{
+    display: flex;
+    margin-top: 20px;
+}
+     /* menu left */
+.navigation{
+    margin: auto;
+    margin-left: 3%;
+    margin-top: 0px;
+    width: 25%;
+    height: 40%;
+    border-radius: 40px 0px 40px 40px;
+
+
+}
+.navigation_title{
+    height: 70px;
+    width: 100%;
+    line-height: 70px;
+    backdrop-filter: blur(4px);
+    color: white;
+    text-align: center;
+    border-radius: 40px 0px 0px 0px;
+    background: #042238;
+
+    font-weight: normal;
+    font-family: Garamond;
+    font-style: normal;
+    font-size: 50px;
+    font-size: calc(1em + 0.8vw);
+}
+.menu{
+    padding: 1px 10px;
+    background: rgba(29, 62, 109, 0.7);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* background: rgba(5, 40, 65, 0.8); */
+    backdrop-filter: blur(4px);
+    color:white;
+    border-radius: 0px 0px 40px 40px;
+    height:78%;
+    font-family: Garamond;
+    font-style: normal;
+    font-size: calc(1em + 0.6vw);
+    line-height: 50px;
+}
+.link__nav__menu{
+    line-height: 50px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px;
+
+    position: relative;
+
+    color: #fff;
+    text-decoration: none;
+
+    transition: color .2 linear;
+
+    white-space: nowrap;
+
+    
+}
+.link__nav__menu:hover{
+    color: #32D15C;
+
+}
+.link__nav__menu:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    display: none;
+
+    background-color: #48a722;
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}
+.link__nav__menu:hover:after{
+    display: block;
+}
+
+    /* contetnt */
+.content_field{
+    margin: auto;
+    width: 67%;
+    height: 100%;
+    margin-right: 3%;
+    background: rgba(29, 62, 109, 0.7);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* background: rgba(29, 62, 109, 0.6); */
+    mix-blend-mode: normal;
+    /* box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    border-radius: 0px 60px 60px 60px;
+}
+.content_title{
+    padding: 0px 30px;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    background: #042238;
+    border-radius: 0px 60px 0px 0px;
+    color: white;
+    height: 70px;
+    border-radius: 0px 40px 0px 0px;
+
+    font-family: Garamond;
+    font-style: normal;
+    font-size: calc(1em + 0.2vw);
+}
+.content_title h5{
+    color: white;
+    margin: auto 15px;
+    font-family: Garamond;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    font-size: calc(1em + 0.8vw);
+}
+.content__news{
+    margin: 0px 5%;
+    height: 90%;
+    padding: 0px 3%;
+}
+
+.content__post{
+    color: white;
+    padding: 1px 5px;
+    height: 25%;
+    width: 100%;
+    margin: 40px 0px;
+    background: rgba(16, 54, 82, 0.7);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: Garamond;
+    font-style: normal;
+    font-size: calc(0.7em + 0.9vw);
+    text-indent: 7%;
+}
+.content__post h3{
+    color: #00ce60;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #042238;
+}
+.content__post span{
+    color: #12b7e0;
+}
+
+.about__us__posts{
+    display: flex;
+    padding: 0px 20px;
+    margin: 0px 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Garamond;
+    font-style: normal;
+    font-size: calc(0.5em + 0.9vw);
+    text-indent: 0;
+}
+.about__us__posts p{
+    width: 100%;
+}
+
