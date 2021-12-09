@@ -14,8 +14,9 @@ function Nav_menu(){
             </div>
             <nav className={style.menu}>
                 <NavLink to="/news" className={setActive} >Новости</NavLink>
-                <NavLink to="/achievemen"  className={setActive} >Достижения</NavLink>
-                <NavLink to="/ourwork"  className={setActive} >Наши работы</NavLink>
+                <NavLink to="/trends2021"  className={setActive} >Тренды 2021</NavLink>
+                <NavLink to="/trends2022"  className={setActive} >Тренды 2022</NavLink>
+
                 <NavLink to="/aboutus"  className={setActive} >О нас</NavLink>
             </nav>        
         </div>

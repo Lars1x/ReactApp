@@ -1,24 +1,25 @@
 
 .field{
     margin: auto;
+    margin-top: 0px;
     width: 67%;
+    min-width: 67%;
     height: 100%;
     margin-right: 3%;
     background: rgba(29, 62, 109, 0.7);
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    mix-blend-mode: normal;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);;
     border-radius: 0px 60px 60px 60px;
 }
 .title{
     padding: 0px 30px;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     display: flex;
     text-align: center;
     background: #042238;
     border-radius: 0px 60px 0px 0px;
     color: white;
-    height: 70px;
+    height: 90px;
     border-radius: 0px 40px 0px 0px;
 
     font-family: Garamond;
@@ -38,4 +39,53 @@
     margin: 0px 5%;
     height: 90%;
     padding: 0px 3%;
+}
+
+.Articles{
+    text-align:justify;
+    color: white;
+    margin-bottom: 30px;
+    text-indent: 6%;
+    color: white;
+
+    font-family: Garamond;
+    font-style: normal;
+    font-size: calc(0.7em + 0.9vw);
+}
+.backButton{
+    line-height: 50px;
+    display: block;
+    margin: 0 20px;
+
+    position: relative;
+
+    color: rgb(54, 255, 87);
+    text-decoration: none;
+
+    transition: color .2 linear;
+
+    white-space: nowrap;
+
+    
+}
+.backButton:hover{
+    color: #32D15C;
+
+}
+.backButton:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    display: none;
+
+    background-color: #48a722;
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}
+.backButton:hover:after{
+    display: block;
 }
