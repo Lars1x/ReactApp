@@ -1,23 +1,25 @@
 
 import './Style.css';
 import React from "react";
-import news from './news';
-import header from './header';
-import navigation_menu from './nav_menu';
-import aboutUs from './about_us';
+import Header from './components/Header/Header';
+import Nav_menu from './components/Nav_menu/Nav_menu';
+import Content from './components/Content/Content';
+import {BrowserRouter, Routes, Route, NavLink} from "react-router-dom";
+import News from './components/Content/News/News';
 
 
   
 function App() {
   return (
-    <div className="wrapper">
-        {header()}
+      <div className="wrapper">
+        {Header()}
         <div className="content_main">
-            {navigation_menu()}
-            {/* {news()} */}
-            {aboutUs()}
+          <BrowserRouter>
+              {Nav_menu()}
+              {Content()}
+          </BrowserRouter>
         </div>
-    </div>
+      </div>
   );
 }
 

@@ -1,0 +1,23 @@
+.post{
+    color: white;
+    padding: 1px 5px;
+    height: 25%;
+    width: 100%;
+    margin: 40px 0px;
+    background: rgba(16, 54, 82, 0.7);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: Garamond;
+    font-style: normal;
+    font-size: calc(0.7em + 0.9vw);
+    text-indent: 7%;
+}
+.post h3{
+    color: #00ce60;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #042238;
+}
+.post span{
+    color: #12b7e0;
+}

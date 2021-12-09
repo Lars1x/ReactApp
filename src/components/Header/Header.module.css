@@ -1,0 +1,88 @@
+.header{
+    width: 100%;
+
+    top: 0;
+
+    z-index: 1000;
+
+    background: #042238;
+    border-radius: 40px 40px 0px 0px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}   
+.Logo__header{
+    align-items: center;
+    color: #fff;
+    display: flex;
+    font-family: Garamond;
+    font-style: normal;
+    font-size: 100px;
+    font-size: calc(1.0em + 1.5vw);
+}
+.Logo{
+    width: 12%;
+    height: 90%;
+    margin-left: 3%;
+}
+.nav{
+    position: absolute;
+    margin-right: 100px;
+    background-color: brown;
+}
+.link_1{
+    display: inline;
+    vertical-align: top;
+
+
+    color: #fff;
+    text-decoration: none;
+
+    border: 4px solid #32D15C;
+    color: #32D15C;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 7px 15px;
+
+    margin: auto;
+    margin-right: 20px;
+
+    font-weight: bold;
+    font-size: larger;
+}
+.link_2{
+    display: inline;
+    vertical-align: top;
+
+    color: #fff;
+    text-decoration: none;
+
+    border: 4px solid #32D15C;
+    color: #32D15C;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 7px 15px;
+    margin: auto;
+    margin-right: 40px;
+
+    font-weight: bold;
+    font-size: larger;
+}
+.link_1:hover{
+    color: #ffffff;
+    border: 4px solid #ffffff;
+}
+.link_2:hover{
+    color: #ffffff;
+    border: 4px solid #ffffff;
+}
+
+
+
