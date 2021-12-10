@@ -1,14 +1,14 @@
 import React from 'react';
-import {Routes, Route, Link } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 
 import logonews from './png/news.png'
 import logoteam from './png/team.png'
 
-import News from './News/News'
 import AboutUsFullTeam from './AboutUs/AboutUsFullTeam';
 import TrendsList2021 from './Trends/TrandsLists/2021/TrendsList2021';
 import TrendsList2022 from './Trends/TrandsLists/2022/TrendsList2022';
-import Articles2021 from './Trends/TrandsLists/2021/Articles2021';
+import NewsList from './News/NewsList/NewsList';
+import MainPage from './MainPage/Mainpage';
 
 import style from './Content.module.css'
 import { Fragment } from 'react';
@@ -59,7 +59,12 @@ function Content() {
             </div>
             <div className={style.post_field}>
                 <Routes>
-                    <Route path="/news" element={<News />} />
+                    <Route path="/" element={
+                        <MainPage />
+                    } />
+                    <Route path="/news" element={
+                        <NewsList />
+                    } />
                     <Route path="/aboutus" element={
                         <AboutUsFullTeam />
                     } />

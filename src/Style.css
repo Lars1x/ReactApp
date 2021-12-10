@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
-body{
+body {
     position: relative;
     background-image: url(https://images.wallpaperscraft.ru/image/single/treugolniki_geometricheskij_mozaika_125451_6000x4000.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 2000px;
-
 }
-.wrapper{
+
+.wrapper {
     height: 130%;
     width: 80%;
     max-width: 1300px;
@@ -19,8 +19,13 @@ body{
     border-radius: 40px 40px 40px 40px;
 }
 
-.content_main{
+.content_main {
     display: flex;
     margin-top: 20px;
     padding-bottom: 70px;
+}
+
+.NavBAr_time {
+    width: 100%;
+    margin: 0px 3%;
 }

@@ -1,0 +1,13 @@
+.field {
+    margin: 40px 0px;
+    color: white;
+    padding: 10px;
+    position: relative;
+    margin: 40px 0px;
+    background: rgba(16, 54, 82, 0.7);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Garamond;
+    font-style: normal;
+    font-size: calc(0.7em + 0.9vw);
+    border-radius: 0.4em;
+}

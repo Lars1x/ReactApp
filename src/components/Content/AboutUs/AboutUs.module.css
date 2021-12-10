@@ -1,6 +1,6 @@
 .post_field{
     color: white;
-    padding: 1px 5px;
+    padding-bottom: 15px;
     height: 25%;
     width: 100%;
     margin: 40px 0px;
@@ -15,8 +15,9 @@
 .post_field h3{
     color: #00ce60;
     text-align: center;
-    margin-top: 20px;
     background-color: #042238;
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px;
 }
 .post{
     display: flex;

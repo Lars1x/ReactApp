@@ -1,13 +1,17 @@
 import style from './News.module.css'
 
+import {Link} from "react-router-dom";
 
-function News() {
-    return(
-        <div className={style.post}>
-            <h3>Дима в очередной раз проспал пары...</h3>
-            <p>
-                <span>Главный вопрос дня</span>:<br /> Сможет ли он он получить зачет по английскому с такой посещяймостью?
-            </p>
+function News(props) {
+
+    return (
+        <div className={style.post_field}>
+            <h3>{props.title}</h3>
+            <div className={style.post}>
+                <p>
+                    {props.subarticle} <Link to={props.link} className={style.link}>Читать далее...</Link>
+                </p>
+            </div>
         </div>
     );
 }
