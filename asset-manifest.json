@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/ReactApp/static/css/main.73985555.chunk.css",
-    "main.js": "/ReactApp/static/js/main.8b3a22b7.chunk.js",
-    "main.js.map": "/ReactApp/static/js/main.8b3a22b7.chunk.js.map",
+    "main.css": "/ReactApp/static/css/main.0e5834f2.chunk.css",
+    "main.js": "/ReactApp/static/js/main.1422a2ab.chunk.js",
+    "main.js.map": "/ReactApp/static/js/main.1422a2ab.chunk.js.map",
     "runtime-main.js": "/ReactApp/static/js/runtime-main.a80a419d.js",
     "runtime-main.js.map": "/ReactApp/static/js/runtime-main.a80a419d.js.map",
-    "static/js/2.6c4f4497.chunk.js": "/ReactApp/static/js/2.6c4f4497.chunk.js",
-    "static/js/2.6c4f4497.chunk.js.map": "/ReactApp/static/js/2.6c4f4497.chunk.js.map",
+    "static/js/2.773efb15.chunk.js": "/ReactApp/static/js/2.773efb15.chunk.js",
+    "static/js/2.773efb15.chunk.js.map": "/ReactApp/static/js/2.773efb15.chunk.js.map",
     "static/js/3.a22b54bf.chunk.js": "/ReactApp/static/js/3.a22b54bf.chunk.js",
     "static/js/3.a22b54bf.chunk.js.map": "/ReactApp/static/js/3.a22b54bf.chunk.js.map",
     "index.html": "/ReactApp/index.html",
-    "static/css/main.73985555.chunk.css.map": "/ReactApp/static/css/main.73985555.chunk.css.map",
-    "static/js/2.6c4f4497.chunk.js.LICENSE.txt": "/ReactApp/static/js/2.6c4f4497.chunk.js.LICENSE.txt",
-    "static/media/Dima.0d2e40b7.jpg": "/ReactApp/static/media/Dima.0d2e40b7.jpg",
+    "static/css/main.0e5834f2.chunk.css.map": "/ReactApp/static/css/main.0e5834f2.chunk.css.map",
+    "static/js/2.773efb15.chunk.js.LICENSE.txt": "/ReactApp/static/js/2.773efb15.chunk.js.LICENSE.txt",
+    "static/media/Dima.af9b46db.jpg": "/ReactApp/static/media/Dima.af9b46db.jpg",
     "static/media/MainImg.560427e5.png": "/ReactApp/static/media/MainImg.560427e5.png",
-    "static/media/Masha.79c51d88.jpg": "/ReactApp/static/media/Masha.79c51d88.jpg",
-    "static/media/Max.55baac1a.jpg": "/ReactApp/static/media/Max.55baac1a.jpg",
-    "static/media/Nikita.f5312a43.jpg": "/ReactApp/static/media/Nikita.f5312a43.jpg",
+    "static/media/Masha.c2bad631.jpg": "/ReactApp/static/media/Masha.c2bad631.jpg",
+    "static/media/Max.b5da7b97.jpg": "/ReactApp/static/media/Max.b5da7b97.jpg",
+    "static/media/Nikita.48014e4e.jpg": "/ReactApp/static/media/Nikita.48014e4e.jpg",
     "static/media/TU.630785e7.png": "/ReactApp/static/media/TU.630785e7.png",
     "static/media/logo.bed6738d.png": "/ReactApp/static/media/logo.bed6738d.png",
     "static/media/news.3039bb4d.png": "/ReactApp/static/media/news.3039bb4d.png",
@@ -24,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a80a419d.js",
-    "static/js/2.6c4f4497.chunk.js",
-    "static/css/main.73985555.chunk.css",
-    "static/js/main.8b3a22b7.chunk.js"
+    "static/js/2.773efb15.chunk.js",
+    "static/css/main.0e5834f2.chunk.css",
+    "static/js/main.1422a2ab.chunk.js"
   ]
 }
