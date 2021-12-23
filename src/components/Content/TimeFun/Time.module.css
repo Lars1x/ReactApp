@@ -13,6 +13,7 @@
 .time {
     font-size: 40px;
     text-decoration: overline;
+    text-decoration-color: rgb(54, 255, 87);
 }
 
 .date {

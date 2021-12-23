@@ -10,8 +10,8 @@ function AboutUs(props) {
             <div className={style.postText}>
                 <p> {props.article}</p>
                 <ul>
-                    <li><span>e-mail:</span> 213123</li>
-                    <li><span>VK:</span> 321312 </li>
+                    <li><span>e-mail:</span> <a href={"mailto:"+props.email} target="_blank"> {props.email}</a></li>
+                    <li><span>VK:</span><a href={props.vk} target="_blank">  {props.vktext}</a> </li>
                 </ul>
             </div>
         </div>
