@@ -26,7 +26,7 @@ function Content() {
                 <Routes>
 
                     <Fragment>
-                        <Route path="/" element={<h5>ГЛАВНАЯ</h5>} />
+                        <Route path="/ReactApp" element={<h5>ГЛАВНАЯ</h5>} />
                         <Route path="/news" element={<h5>НОВОСТИ</h5>} />
                         <Route path="/aboutus" element={<h5>НАША КОМАНДА</h5>} />
                         <Route path="/trends2021" element={<h5>ТЕХНОЛОГИЧЕСКИЕ ТРЕНДЫ 2021</h5>} />
@@ -70,7 +70,7 @@ function Content() {
             <div className={style.post_field}>
                 <Routes>
 
-                    <Route path="/" element={
+                    <Route path="/ReactApp" element={
                         <MainPage />
                     } />
                     <Route path="/news" element={
