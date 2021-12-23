@@ -13,11 +13,11 @@ function Nav_menu(){
                 КАТЕГОРИИ
             </div>
             <nav className={style.menu}>
-                <NavLink to="/news" className={setActive} >Новости</NavLink>
-                <NavLink to="/trends2021"  className={setActive} >Тренды 2021</NavLink>
-                <NavLink to="/trends2022"  className={setActive} >Тренды 2022</NavLink>
+                <NavLink to="/news/" className={setActive} >Новости</NavLink>
+                <NavLink to="/trends2021/"  className={setActive} >Тренды 2021</NavLink>
+                <NavLink to="/trends2022/"  className={setActive} >Тренды 2022</NavLink>
 
-                <NavLink to="/aboutus"  className={setActive} >О нас</NavLink>
+                <NavLink to="/aboutus/"  className={setActive} >О нас</NavLink>
             </nav>        
         </div>
     );

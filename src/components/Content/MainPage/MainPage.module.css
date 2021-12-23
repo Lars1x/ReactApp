@@ -12,6 +12,11 @@
     border-radius: 0.4em;
 }
 
+.field img {
+    width: 100%;
+    height: 100%;
+}
+
 .field p {
     text-align: center;
 }

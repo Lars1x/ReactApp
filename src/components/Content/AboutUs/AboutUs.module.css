@@ -1,4 +1,4 @@
-.post_field{
+.post_field {
     color: white;
     padding-bottom: 15px;
     height: 25%;
@@ -7,19 +7,26 @@
     background: rgba(16, 54, 82, 0.7);
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-
     font-family: Garamond;
     font-style: normal;
     font-size: calc(0.7em + 0.9vw);
 }
-.post_field h3{
+
+.post_field h3 {
     color: #00ce60;
     text-align: center;
     background-color: #042238;
     border-radius: 10px 10px 0px 0px;
     padding: 5px;
 }
-.post{
+
+.imgAboutUs {
+    height: 100%;
+    width: 140px;
+    border-radius: 10px;
+}
+
+.post {
     display: flex;
     padding: 0px 20px;
     margin: 0px 5px;
@@ -31,6 +38,24 @@
     text-indent: 0;
 }
 
-.post p{
+.postText {
+    align-items: center;
     width: 100%;
+    margin: 0px 20px;
+}
+
+.postText ul {
+    padding-left: 10%;
+    text-align: left;
+    align-items: left;
+    font-size: 25px;
+}
+
+.postText span {
+    color: #00ce60;
+}
+
+.post p {
+    width: 100%;
+    margin: 0;
 }
