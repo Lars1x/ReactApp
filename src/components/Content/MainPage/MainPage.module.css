@@ -11,3 +11,11 @@
     font-size: calc(0.7em + 0.9vw);
     border-radius: 0.4em;
 }
+
+.field p {
+    text-align: center;
+}
+
+.field span {
+    color: #32D15C;
+}

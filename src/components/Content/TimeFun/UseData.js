@@ -18,7 +18,7 @@ const useDate = () => {
     const date = `${day}, ${today.getDate()} ${today.toLocaleDateString(locale, { month: 'long' })}\n\n`;
 
     const hour = today.getHours();
-    const wish = ` ${(hour < 12 && 'Доброе утро') || (hour < 17 && 'Добрый день') || ' Добрый вечер'}, `;
+    const wish = ` ${(hour < 4 && 'Доброй ночи') || (hour < 12 && 'Доброе утро') || (hour < 17 && 'Добрый день') || ' Добрый вечер'}, `;
 
     const time = today.toLocaleTimeString(locale, { hour: 'numeric', hour12: false, minute: 'numeric' });
 

@@ -9,11 +9,12 @@ function Header() {
         <header className={style.header}>
             <div className={style.Logo__header}>
                 <img src={logo} className={style.Logo} />
-                XATKA Бiбpa
+                XATKA
+                {/* Бiбpa */}
             </div>
             <nav classNeme={style.nav}>
                 <NavLink to="/" className={style.link_1}  >ГЛАВНАЯ</NavLink>
-                <NavLink to="/" className={style.link_2}  >КОНТАКТЫ</NavLink>
+                {/* <NavLink to="/" className={style.link_2}  >КОНТАКТЫ</NavLink> */}
             </nav>
         </header>
     )

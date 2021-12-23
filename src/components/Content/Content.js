@@ -3,6 +3,7 @@ import { Routes, Route, Link } from "react-router-dom";
 
 import logonews from './png/news.png'
 import logoteam from './png/team.png'
+import TUnews from './png/TU.png'
 
 import AboutUsFullTeam from './AboutUs/AboutUsFullTeam';
 import TrendsList2021 from './Trends/TrandsLists/2021/TrendsList2021';
@@ -23,6 +24,7 @@ function Content() {
                     <Route path="/aboutus" element={<img src={logoteam} width="7.5%" />} />
                 </Routes>
                 <Routes>
+
                     <Fragment>
                         <Route path="/" element={<h5>ГЛАВНАЯ</h5>} />
                         <Route path="/news" element={<h5>НОВОСТИ</h5>} />
@@ -30,6 +32,12 @@ function Content() {
                         <Route path="/trends2021" element={<h5>ТЕХНОЛОГИЧЕСКИЕ ТРЕНДЫ 2021</h5>} />
                         <Route path="/trends2022" element={<h5>ТЕХНОЛОГИЧЕСКИЕ ТРЕНДЫ 2022</h5>} />
                     </Fragment>
+
+                    <Fragment>
+                        <Route path="/news/1" element={<h5>Результаты работы по ТУ</h5>} />
+                        <Route path="/news/2" element={<h5>Мы выполнили все лабораторные работы по Документообороту</h5>} />
+                    </Fragment>
+
                     <Fragment>
                         <Route path="/trends2021/1" element={<h5>Интернет поведения (IoB)</h5>} />
                         <Route path="/trends2021/2" element={<h5>Совокупный опыт (Total Experience)</h5>} />
@@ -41,6 +49,7 @@ function Content() {
                         <Route path="/trends2021/8" element={<h5>ИИ-инжиниринг (AI Engineering)</h5>} />
                         <Route path="/trends2021/9" element={<h5>Гиперавтоматизация (Hyperautomation)</h5>} />
                     </Fragment>
+
                     <Fragment>
                         <Route path="/trends2022/1" element={<h5>Фабрика данных (Data Fabric)</h5>} />
                         <Route path="/trends2022/2" element={<h5>Сеть кибербезопасности (Cybersecurity Mesh)</h5>} />
@@ -55,10 +64,12 @@ function Content() {
                         <Route path="/trends2022/11" element={<h5>Автономные системы (Autonomic Systems)</h5>} />
                         <Route path="/trends2022/12" element={<h5>12. Генеративный искусственный интеллект (Generative AI)</h5>} />
                     </Fragment>
+
                 </Routes>
             </div>
             <div className={style.post_field}>
                 <Routes>
+
                     <Route path="/" element={
                         <MainPage />
                     } />
@@ -74,6 +85,29 @@ function Content() {
                     <Route path="/trends2022" element={
                         <TrendsList2022 />
                     } />
+
+                    <Fragment>
+                        <Route path="/news/1" element={
+                            <div className={style.Articles}>
+                                <p>Стали известны результаты нашей работы за семестр по дисциплине "Теория управления". Кто-то может радоваться хорошей оценке, а кто-то должен продолжать работу для допуска к экзаменационной сесии.</p>
+                                <img src={TUnews} alt="TU" className={style.TUimg} />
+                                <Link to="/news" className={style.backButton}>Вернуться назад</Link>
+                            </div>
+                        } />
+                        <Route path="/news/2" element={
+                            <div className={style.Articles}>
+                                <p>Наша команда, состоящая из Маши Показаньевой, Димы Коновалова, Максима Толстова и Никиты Бардина полность выполнили все лабораторные работы по Документообороту. И теперь мы можем спокойно отдохнуть перед предстоящими новогодними праздниками</p>
+                                <p>
+                                    Документооборот (электронный документооборот) - система создания, интерпретации, передачи, приема и архивирования документов в организации с момента их создания или получения до завершения исполнения или отправления. Система электронного документооборота также контролирует выполнение работ с документами и обеспечивает защиту от несанкционированного доступа.
+                                    Документооборот - это один из инструментов управления предприятием, служащий для обмена электронной информацией как внутри предприятия (между сотрудниками предприятия), так и с внешними контрагентами.
+                                </p>
+                                <p>
+                                    Существует также такое понятие, как "делопроизводство", которое часто используют как синоним термина "документооборот", однако, их следует разделять. Делопроизводство — это комплекс мероприятий в организации по документационному обеспечению управления. А термином "документооборот", как правило, описывается движение документов в рамках документационного обеспечения управления.
+                                </p>
+                                <Link to="/news" className={style.backButton}>Вернуться назад</Link>
+                            </div>
+                        } />
+                    </Fragment>
 
                     <Fragment>          {/*Статьи Гартнер за 2021*/}
                         <Route path="/trends2021/1" element={
