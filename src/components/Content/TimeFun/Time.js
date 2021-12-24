@@ -12,9 +12,7 @@ function Time() {
             <p className={style.time}>
                 {now.time}
             </p>
-            <p className={style.date}>
-                {now.date}
-            </p>
+            <p className={style.date}> {now.date} </p>
         </div>
     );
 }

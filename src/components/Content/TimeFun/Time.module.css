@@ -1,19 +1,23 @@
 .field {
     margin: 50px auto;
     width: 80%;
-    padding: 0;
+    padding: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
     color: #fff;
-    border: 12px solid #132b5c;
+    border: 9px solid #132b5c;
     box-sizing: border-box;
     border-radius: 30px;
     text-align: center;
-    line-height: 30px;
+    line-height: 20px;
+    font-weight: bold;
 }
 
 .time {
-    font-size: 40px;
+    font-size: 50px;
     text-decoration: overline;
-    text-decoration-color: rgb(54, 255, 87);
+    text-decoration-color: #132b5c;
+    text-decoration-thickness: 3px;
 }
 
 .date {
