@@ -1,6 +1,6 @@
 import React from "react";
-import Trends from "../../Trends";
-import { Fragment } from 'react/cjs/react.production.min';
+import Trends from "../Trends";
+import { Fragment } from 'react';
 
 
 function TrendsList2022() {

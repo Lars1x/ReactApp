@@ -1,5 +1,5 @@
 import React from "react";
-import style from '../../../Content.module.css'
+import style from '../../Content.module.css'
 import { Fragment } from "react";
 import { BrowserRouter, Routes, Route, NavLink, Link } from "react-router-dom";
 

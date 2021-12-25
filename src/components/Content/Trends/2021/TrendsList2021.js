@@ -1,5 +1,5 @@
 import React from "react";
-import Trends from "../../Trends";
+import Trends from "../Trends";
 import { Fragment } from 'react';
 
 
