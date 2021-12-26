@@ -1,8 +1,5 @@
 import style from './Nav_menu.module.css'
-import {BrowserRouter, Routes, Route, NavLink} from "react-router-dom";
-import News from '../Content/News/News';
-
-import Content from '../Content/Content';
+import {NavLink} from "react-router-dom";
 
 const setActive = ({isActive}) => isActive ? style.active: style.link
 

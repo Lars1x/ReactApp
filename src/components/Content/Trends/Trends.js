@@ -1,8 +1,8 @@
 import style from './Trends.module.css'
 
-import {BrowserRouter, Routes, Route, NavLink, Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
-function Trends(props) {
+function Post(props) {
 
     return (
         <div className={style.post_field}>
@@ -16,4 +16,4 @@ function Trends(props) {
     );
 }
 
-export default Trends;
+export default Post;
