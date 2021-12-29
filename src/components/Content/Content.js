@@ -2,14 +2,14 @@ import React from 'react';
 import { Routes } from "react-router-dom";
 
 import Articles2021 from './Trends/2021/Articles2021';
-import Articles2022 from './Trends/2022/Articles2021';
+import Articles2022 from './Trends/2022/Articles2022';
 import ArticlesNews from './News/NewsList/ArticlesNews';
 import MainPages from './MainPages';
 import TitleImg from './Titles/TitleImg';
 import TitleMainPages from './Titles/TitleMainPages';
 import TitleNews from './Titles/TitleNews';
-import TitleTrends2021 from './Titles/TitleTrends2021';
-import TitleTrends2022 from './Titles/TitleTrends2022';
+import TitleTrends2021 from './Trends/2021/TitleTrends2021';
+import TitleTrends2022 from './Trends/2022/TitleTrends2022';
 
 import style from './Content.module.css'
 
