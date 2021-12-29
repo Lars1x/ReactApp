@@ -5,7 +5,7 @@ import ArticlesData2021 from "./ArticlesData2021";
 
 
 function TrendsList2021() {
-    let Trends2021Elements = ArticlesData2021.map((t) => <Post title={t.title} subarticle={t.PostContent} id={t.id.toString} />)
+    let Trends2021Elements = ArticlesData2021.map((t) => <Post title={t.title} subarticle={t.PostContent} id={t.id.toString()} />)
 
     return (
         <Fragment>
